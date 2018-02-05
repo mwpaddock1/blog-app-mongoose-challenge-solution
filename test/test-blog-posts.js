@@ -97,7 +97,7 @@ describe('blog posts API resource', function () {
         .then(count => {
           // the number of returned posts should be same
           // as number of posts in DB
-          res.body.should.have.length.of(count);
+          res.body.should.have.lengthOf(count);
         });
     });
 
